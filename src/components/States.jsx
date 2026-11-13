@@ -11,7 +11,7 @@ export const EmptyState = () => (
 )
 
 export const WeatherSkeleton = () => (
-  <div className="mt-6 animate-pulse" role="status" aria-label="Loading weather">
+  <div className="mt-6 motion-safe:animate-pulse" role="status" aria-label="Loading weather">
     <div className="h-64 rounded-3xl bg-stone-200" />
     <div className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
       {Array.from({ length: 5 }, (_, i) => (

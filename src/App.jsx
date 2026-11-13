@@ -49,7 +49,7 @@ const App = () => {
 
   return (
     <div className="min-h-screen bg-stone-50 text-stone-900">
-      <main className="mx-auto max-w-3xl px-4 py-8">
+      <main className="mx-auto max-w-4xl px-4 py-8">
         <OfflineBanner />
         <h1 className="mb-5 text-2xl font-semibold tracking-tight">
           Weather<span className="text-orange-600">Board</span>
